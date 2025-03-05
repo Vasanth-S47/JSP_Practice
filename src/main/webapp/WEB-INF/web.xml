@@ -4,4 +4,15 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <web-app>
+    <servlet>
+      <servlet-name>implicit</servlet-name>
+      <jsp-file>/implicitObject.jsp</jsp-file>
+      <init-param>
+        <param-name>name</param-name>
+        <param-value>Vasanth S</param-value>
+      </init-param>
+    </servlet>
+  </web-app>
+
 </web-app>
